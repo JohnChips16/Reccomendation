@@ -26,15 +26,15 @@ To run this project locally, follow these steps:
 
 
 ## 5. **Usage**
-0. it's flexible, so you can adjust depends on what fields you are comparing it.
+0. it's flexible, so you can adjust depends on what fields you are comparing with.
 1. train the model with given json data
-   /train
+   POST /train
 2. save the model
-   /save
+   POST /save
 3. load the trained model
-   /load
+   POST /load
 4. and make comparison
-   /compare
+   POST /compare
 
    with following curl command
    ```bash
